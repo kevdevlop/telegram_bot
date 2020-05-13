@@ -38,7 +38,7 @@ def set_webhook():
 
 @app.route('/')
 def index():
-    return '.'
+    return "<h1>Welcome to app server to chatbot</h1><p>Click here to start <a href='"+ URL +"setwebhook'>webhook</a></p>"
 
 if __name__ == '__main__':
     app.run(threaded=True)
